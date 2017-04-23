@@ -1,3 +1,4 @@
+import { autobind } from 'core-decorators';
 import * as PropTypes from 'prop-types';
 import * as React from 'react';
 
@@ -11,12 +12,6 @@ export default class MessageForm extends React.Component<MessageFormProps, null>
   };
 
   private messageInput: HTMLInputElement;
-
-  constructor(props: MessageFormProps) {
-    super(props);
-
-    this.onSendMessage = this.onSendMessage.bind(this);
-  }
 
   public render() {
     return (
@@ -40,6 +35,7 @@ export default class MessageForm extends React.Component<MessageFormProps, null>
     this.messageInput.focus();
   }
 
+  @autobind
   private onSendMessage(e: React.FormEvent<HTMLFormElement>) {
     e.preventDefault();
 

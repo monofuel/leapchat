@@ -27,6 +27,7 @@
   },
   "homepage": "https://github.com/cryptag/leapchat#readme",
   "dependencies": {
+    "@types/core-decorators": "^0.10.32",
     "@types/react": "^15.0.22",
     "@types/react-dom": "^15.5.0",
     "atob": "^2.0.3",
@@ -35,6 +36,7 @@
     "babelify": "^7.3.0",
     "browserify": "^14.1.0",
     "btoa": "^1.1.2",
+    "core-decorators": "^0.17.0",
     "gulp": "^3.9.1",
     "gulp-sass": "^3.1.0",
     "js-sha512": "^0.3.0",
