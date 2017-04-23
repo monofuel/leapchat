@@ -27,6 +27,8 @@
   },
   "homepage": "https://github.com/cryptag/leapchat#readme",
   "dependencies": {
+    "@types/react": "^15.0.22",
+    "@types/react-dom": "^15.5.0",
     "atob": "^2.0.3",
     "babel-preset-es2015": "^6.24.0",
     "babel-preset-react": "^6.23.0",
