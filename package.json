@@ -35,11 +35,13 @@
     "btoa": "^1.1.2",
     "gulp": "^3.9.1",
     "gulp-sass": "^3.1.0",
-    "node-notifier": "^5.1.2",
     "js-sha512": "^0.3.0",
+    "node-notifier": "^5.1.2",
     "react": "^15.4.2",
     "react-bootstrap": "^0.30.8",
     "react-dom": "^15.4.2",
+    "tsify": "^3.0.1",
+    "typescript": "^2.2.2",
     "utf8": "^2.1.2",
     "watchify": "^3.9.0"
   }
