@@ -5,6 +5,16 @@
     ],
     "jsRules": {},
     "rules": {
+        "ordered-imports": [
+            false
+        ],
+        "member-ordering": [
+            false
+        ],
+        "one-line": [
+            false
+        ],
+        "object-literal-sort-keys": false,
         "interface-name": [false],
         "quotemark": [true, "single", "avoid-escape"]
     },

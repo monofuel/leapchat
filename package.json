@@ -28,6 +28,7 @@
   "homepage": "https://github.com/cryptag/leapchat#readme",
   "dependencies": {
     "@types/core-decorators": "^0.10.32",
+    "@types/node-notifier": "0.0.28",
     "@types/react": "^15.0.22",
     "@types/react-dom": "^15.5.0",
     "atob": "^2.0.3",
