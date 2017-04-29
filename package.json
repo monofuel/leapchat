@@ -46,7 +46,7 @@
     "react-bootstrap": "^0.30.8",
     "react-dom": "^15.4.2",
     "tsify": "^3.0.1",
-    "typescript": "^2.2.2",
+    "typescript": "^2.3.2",
     "utf8": "^2.1.2",
     "watchify": "^3.9.0"
   }
