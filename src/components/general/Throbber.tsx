@@ -21,21 +21,21 @@ class Throbber extends React.Component<null, null> {
       delay: 0,
     };
 
-    const firstDot = ReactDOM.findDOMNode(this.refs.firstDot);
+    const firstDot = ReactDOM.findDOMNode(this.refs.firstDot) as any;
     firstDot.animate(keyframes, properties);
 
     properties.delay = 200;
 
-    const secondDot = ReactDOM.findDOMNode(this.refs.secondDot);
+    const secondDot = ReactDOM.findDOMNode(this.refs.secondDot) as any;
     secondDot.animate(keyframes, properties);
 
     properties.delay = 400;
 
-    const thirdDot = ReactDOM.findDOMNode(this.refs.thirdDot);
+    const thirdDot = ReactDOM.findDOMNode(this.refs.thirdDot) as any;
     thirdDot.animate(keyframes, properties);
   }
 
-  render(){
+  public render(){
     return (
       <div className="row">
         <div className="col-md-12 throbber" title="Your content is loading...">
