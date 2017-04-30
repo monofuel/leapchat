@@ -5,7 +5,6 @@ import * as PropTypes from 'prop-types';
 
 import MessageList from './MessageList';
 import { MessageObj } from './Message';
-import * as Throbber from '../general/Throbber';
 
 import { playNotification } from '../../utils/audio';
 
