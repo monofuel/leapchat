@@ -17,7 +17,7 @@ interface UsernameModalState {
   username: string;
 }
 
-class UsernameModal extends Component<UsernameModalProps, UsernameModalState> {
+export default class UsernameModal extends Component<UsernameModalProps, UsernameModalState> {
   public static PropTypes = {
     username: PropTypes.string.isRequired,
     onSetUsername: PropTypes.func.isRequired,
@@ -48,7 +48,8 @@ class UsernameModal extends Component<UsernameModalProps, UsernameModalState> {
   }
 
   public render(){
-    const { showModal, username, onCloseModal } = this.props;
+    const { showModal, onCloseModal } = this.props;
+    const { username } = this.state;
     return (
       <div>
         <Modal show={showModal} onHide={onCloseModal}>

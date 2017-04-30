@@ -4,7 +4,6 @@ import * as notifier from 'node-notifier';
 import * as PropTypes from 'prop-types';
 
 import MessageList from './MessageList';
-import { MessageObj } from './Message';
 
 import { playNotification } from '../../utils/audio';
 

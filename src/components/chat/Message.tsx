@@ -1,12 +1,6 @@
 import * as PropTypes from 'prop-types';
 import * as React from 'react';
 
-export interface MessageObj {
-  from: string;
-  key: string;
-  msg: string;
-}
-
 export interface MessageProps {
   message: MessageObj;
   username: string;

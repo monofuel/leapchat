@@ -1,7 +1,5 @@
 import * as React from 'react';
 
-import { MessageObj } from '../chat/Message';
-
 interface Room {
   key: string;
   messages: MessageObj[];

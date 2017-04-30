@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { findDOMNode } from 'react-dom';
 
-import Message, { MessageObj } from './Message';
+import Message from './Message';
 
 
 export interface MessageListProps {

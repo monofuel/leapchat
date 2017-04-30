@@ -1,6 +1,5 @@
 import * as React from 'react';
 
-import { MessageObj } from './Message';
 import MessageBox from './MessageBox';
 import MessageForm from './MessageForm';
 

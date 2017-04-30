@@ -14,6 +14,13 @@
         "one-line": [
             false
         ],
+        "no-console": [
+            false
+        ],
+        "max-line-length": [
+            false
+        ],
+        "no-var-requires": false,
         "object-literal-sort-keys": false,
         "interface-name": [false],
         "quotemark": [true, "single", "avoid-escape"]

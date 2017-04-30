@@ -4,10 +4,16 @@
         "noImplicitAny": true,
         "sourceMap": true,
         "jsx": "react",
-        "lib": ["es2015", "dom"],
-        "experimentalDecorators": true
+        "lib": ["es2016", "dom"],
+        "experimentalDecorators": true,
+        "allowJs": true,
+        "strictNullChecks": true
     },
     "include": [
         "./src/**/*"
+    ],
+    "files": [
+        "./typings/miniLock.d.ts",
+        "./typings/leapchat.d.ts"
     ]
 }
