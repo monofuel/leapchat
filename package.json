@@ -30,6 +30,7 @@
     "@types/core-decorators": "^0.10.32",
     "@types/node-notifier": "0.0.28",
     "@types/react": "^15.0.22",
+    "@types/react-bootstrap": "0.0.49",
     "@types/react-dom": "^15.5.0",
     "atob": "^2.0.3",
     "babel-preset-es2015": "^6.24.0",
